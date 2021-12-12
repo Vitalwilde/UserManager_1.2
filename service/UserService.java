@@ -174,7 +174,6 @@ public class UserService {
 
     private String enterPsycho() {
         System.out.println("Введите психотип");
-        //   cleanScanner();
         return checkPsycho();
     }
 
