@@ -186,7 +186,7 @@ public class UserService {
         UserProfiling shizoid = UserProfiling.SHIZOID;
         UserProfiling hypertim = UserProfiling.HYPERTIM;
 
-        String scanUserPsycho = scanner.nextLine().toLowerCase();
+        String scanUserPsycho = scanner.nextLine().toLowerCase();           //не получилось сделать тем способом как показывал
         switch (scanUserPsycho) {
             case ("истероид") -> {
                 return isteroid.getPsychotype();
