@@ -75,6 +75,7 @@ public class User {
                "\nФамилия: " + this.userLastName +
                "\nПол: " + this.userGender +
                "\nВозраст: " + this.userAge +
-               "\nПсихотип: " + this.userPsychotype;
+               "\nПсихотип: " + this.userPsychotype+
+               "\nдобавлено";
     }
 }
