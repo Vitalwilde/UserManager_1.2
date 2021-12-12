@@ -264,7 +264,7 @@ public class UserService {
     }
 
     public void continueMessage() {
-        System.out.println(InterfaceMessages.ANSI_YELLOW + "Что бы продолжить нажмите Enter" + InterfaceMessages.ANSI_RESET);                                           //пренести в сервис
+        System.out.println(InterfaceMessages.ANSI_YELLOW + "Что бы продолжить нажмите Enter" + InterfaceMessages.ANSI_RESET);
         String userChoiceContinue = UserService.scanner.nextLine();
         if (userChoiceContinue.equals("")) {
             InterfaceMessages.mainMenu();
