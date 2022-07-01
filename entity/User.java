@@ -1,7 +1,7 @@
 package entity;
 
 public class User {
-    private Integer id
+    private Integer id;
     private String userFirstName;
     private String userLastName;
     private String userGender;
